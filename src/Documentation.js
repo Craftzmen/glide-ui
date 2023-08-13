@@ -7,9 +7,13 @@ import Sidebar from "./Sidebar";
 const Documentation = () => {
     return (
         <Box boxSizing="border-box" >
-            <Navbar />
+            <Box position={'sticky'} top={0} >
+                <Navbar /> 
+            </Box>
             <Box display={"flex"}>
-                <Sidebar/>
+                <Box>
+                    <Sidebar/>
+                </Box>
                 <Box padding={'20px'}  >
                     <Outlet/>
                 </Box>

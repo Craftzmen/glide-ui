@@ -1,13 +1,14 @@
 import React from "react";
 import { Routes as ReactRoutes, Route } from "react-router-dom";
 import Documentation from "./Documentation";
+import Accordion from "./components/Accordion";
 
 const Routes = () => {
     return (
         <div>
             <ReactRoutes>
                 <Route path="/" element={<Documentation />}>
-                    <Route path="accordion" element={<h1>Accordion</h1>} />
+                    <Route path="accordion" element={<Accordion/>} />
                     <Route path="modal" element={<h1>Modal</h1>} />
                     <Route path="dialog" element={<h1>Dialog</h1>} />
                     <Route path="button" element={<h1>Button</h1>} />
