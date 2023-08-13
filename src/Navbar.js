@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     return (
-        <Box display={'flex'} width={'100%'} px={10} py={2.5} borderBottom={'1px'} borderColor={'gray.200'} >
+        <Box display={'flex'} width={'100%'} px={10} py={3.5} borderBottom={'1px'} borderColor={'gray.200'} backgroundColor={'white'} zIndex={1} >
             <Link to='/' >
-                <Text fontFamily={'sans-serif'} fontWeight={'bold'} fontSize={'lg'}  >glide/ui</Text>
+                <Text fontFamily={'sans-serif'} fontWeight={'bold'} fontSize={'lg'}  ><Box fontSize={'xl'} display={'inline'} >#</Box> glide/ui</Text>
             </Link>
         </Box>
     )
