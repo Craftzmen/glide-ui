@@ -6,15 +6,11 @@ import Sidebar from "./Sidebar";
 
 const Documentation = () => {
     return (
-        <Box boxSizing="border-box" >
-            <Box position={'sticky'} top={0} >
-                <Navbar /> 
-            </Box>
+        <Box boxSizing="border-box" height={'200vh'} >
+            <Navbar /> 
             <Box display={"flex"}>
-                <Box>
-                    <Sidebar/>
-                </Box>
-                <Box padding={'20px'}  >
+                <Sidebar />
+                <Box padding={'35px'}  >
                     <Outlet/>
                 </Box>
             </Box>
