@@ -6,7 +6,7 @@ import Sidebar from "./Sidebar";
 
 const Documentation = () => {
     return (
-        <Box boxSizing="border-box" height={'200vh'} >
+        <Box boxSizing="border-box" >
             <Navbar /> 
             <Box display={"flex"}>
                 <Sidebar />

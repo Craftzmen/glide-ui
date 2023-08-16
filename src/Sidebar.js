@@ -5,7 +5,7 @@ import { Box, Text } from '@chakra-ui/react'
 const Sidebar = (props) => {
     return (
         <div>
-            <Box {...props} width={80} height={"100vh"} px={20} py={10} fontSize={'sm'} >
+            <Box {...props} width={80} height={'100vh'} px={20} py={10} fontSize={'sm'} >
                 <Box>
                     <Text fontWeight={'semibold'} letterSpacing={'wide'} >Introduction</Text>
                     <Box mt={3} display={'flex'} flexDirection={'column'} gap={'3'} textColor={'gray.500'} >
