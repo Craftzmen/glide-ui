@@ -12,7 +12,7 @@ const Sidebar = (props) => {
   }
     return (
         <div>
-          <Button  onClick={openSidebarHandler} margin={5} fontSize={'sm'} fontWeight={'light'} px={10}  >{ !openSidebar ? 'Open Sidebar' : 'Close Sidebar' }</Button>
+          <Button bgColor={'blackAlpha.50'} textColor={'blackAlpha.700'}  onClick={openSidebarHandler} margin={5} fontSize={'sm'} fontWeight={'light'} px={10}  >{ !openSidebar ? 'Doc Links' : 'Close Links' }</Button>
             {openSidebar && (
               <motion.div
                 initial={{ x: '-100%' }}
