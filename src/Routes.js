@@ -8,6 +8,7 @@ const Routes = () => {
         <div>
             <ReactRoutes>
                 <Route path="/" element={<Documentation />}>
+                    <Route path="installation" />
                     <Route path="accordion" element={<Accordion/>} />
                     <Route path="modal" element={<h1>Modal</h1>} />
                     <Route path="dialog" element={<h1>Dialog</h1>} />
